@@ -1,23 +1,15 @@
 export const projects = [
   {
-    id: 1,
-    title: "E-Commerce Engine",
-    description: "A high-performance storefront optimized for speed and SEO.",
-    tech: ["Next.js", "PostgreSQL", "Tailwind"],
-    size: "large", // This will take up more space in our grid
-  },
-  {
-    id: 2,
-    title: "SaaS Dashboard",
-    description: "Real-time data visualization for logistics tracking.",
-    tech: ["React", "Recharts", "Supabase"],
-    size: "small",
-  },
-  {
-    id: 3,
-    title: "HillCity API",
-    description: "Secure backend architecture for mobile integration.",
-    tech: ["Node.js", "Prisma", "Docker"],
-    size: "small",
-  },
+    "title": "City Group of Schools Management System",
+    "description": "A comprehensive digital ecosystem for City schools, featuring an automated exam platform, secure result scratching system, and streamlined online enrollment.",
+    "tech": [
+      "Next.js",
+      "Express",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "size": "large",
+    "id": 1
+  }
 ];
