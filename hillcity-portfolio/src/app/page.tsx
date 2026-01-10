@@ -14,11 +14,12 @@ export default function Home() {
       {/* Hero Section */}
       <Reveal>
         <section id="hero" className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6">
+          {/* Main Flex Container */}
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
             
             {/* Text Content */}
             <div className="flex-1 text-center md:text-left">
-              <h1 className="text-5xl md:text-7xl font-bold text-color-hill-navy leading-tight mb-6">
+              <h1 className="text-5xl md:text-7xl font-bold text-hill-navy leading-tight mb-6">
                 Your Vision, <span className="text-hill-gold">Directed.</span><br />
                 Your Web App, Delivered.
               </h1>
@@ -26,13 +27,21 @@ export default function Home() {
                 From concept to deployment, I build fast, secure, and intuitive web solutions 
                 tailored to your business goals. Engineering the digital foundations your brand deserves.
               </p>
+              
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-                <button className="bg-hill-green text-white px-8 py-4 rounded-full font-bold hover:brightness-110 transition-all w-full sm:w-auto shadow-lg shadow-hill-green/20">
+                <a 
+                  href="#contact" 
+                  className="bg-hill-green text-white px-8 py-4 rounded-full font-bold hover:brightness-110 transition-all w-full sm:w-auto shadow-lg shadow-hill-green/20 text-center"
+                >
                   Start Your Project
-                </button>
-                <button className="border-2 border-hill-navy/10 text-hill-navy px-8 py-4 rounded-full font-bold hover:bg-(--color-hill-navy)/5 transition-all w-full sm:w-auto">
+                </a>
+
+                <a 
+                  href="#work" 
+                  className="border-2 border-hill-navy/10 text-hill-navy px-8 py-4 rounded-full font-bold hover:bg-hill-navy/5 transition-all w-full sm:w-auto text-center"
+                >
                   View Portfolio
-                </button>
+                </a>
               </div>
             </div>
 
@@ -52,7 +61,7 @@ export default function Home() {
               </div>
             </div>
 
-          </div>
+          </div> {/* End of Flex Container */}
         </section>
       </Reveal>
 

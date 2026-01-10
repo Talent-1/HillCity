@@ -9,7 +9,6 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Handle scroll effect for glassmorphism
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -63,9 +62,13 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <button className="bg-hill-green hover:bg-hill-green/90 text-white px-6 py-2.5 rounded-full text-sm font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-black/20">
+          {/* ACTION BUTTON: Points to #contact */}
+          <a 
+            href="#contact"
+            className="bg-hill-green hover:bg-hill-green/90 text-white px-6 py-2.5 rounded-full text-sm font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-black/20"
+          >
             Let's Build
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -97,9 +100,14 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button className="bg-hill-green text-white py-4 rounded-xl font-bold">
+              {/* MOBILE ACTION BUTTON */}
+              <a 
+                href="#contact"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="bg-hill-green text-white py-4 rounded-xl font-bold text-center"
+              >
                 Let's Build
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
