@@ -43,7 +43,7 @@ export default function Home() {
               
               <div className="relative w-2/3 h-2/3 transition-transform duration-700 hover:scale-110">
                 <Image 
-                  src="/assets/Hillcity-logo.jpg" 
+                  src="/assets/HillCity-logo.jpg" 
                   alt="HillCity Solutions Brand Mark"
                   fill
                   className="object-contain"

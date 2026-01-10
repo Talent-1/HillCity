@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Added your logo here */}
             <div className="relative w-8 h-8">
               <Image 
-                src="/assets/hillcity-logo.jpg" 
+                src="/assets/HillCity-logo.jpg" 
                 alt="HillCity Solutions Logo"
                 fill
                 className="object-contain"
