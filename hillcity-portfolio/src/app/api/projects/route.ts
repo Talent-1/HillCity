@@ -11,6 +11,7 @@ interface Project {
   description: string;
   tech: string[];
   size: 'small' | 'large';
+  link?: string; // Optional field
 }
 
 const projectsFilePath = path.join(process.cwd(), 'src', 'data', 'projects.ts');
