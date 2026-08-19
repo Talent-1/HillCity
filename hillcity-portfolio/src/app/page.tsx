@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
-import BentoGrid from '@/components/BentoGrid';
+import ProjectsGrid from '@/components/ProjectsGrid';
 import Process from '@/components/Process';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -24,7 +24,7 @@ export default function Home() {
                 Your Web App, Delivered.
               </h1>
               <p className="text-lg text-hill-slate max-w-xl mb-10 mx-auto md:mx-0">
-      I build fast, secure, and intuitive web applications for businesses that need more than just a website — they need systems that work.
+        I build fast, secure, and intuitive web applications for businesses that need more than just a website — they need systems that work.
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
@@ -64,7 +64,7 @@ export default function Home() {
         </section>
       </Reveal>
 
-      <Reveal><BentoGrid /></Reveal>
+      <Reveal><ProjectsGrid /></Reveal>
       <Reveal><Process /></Reveal>
       <Reveal><Contact /></Reveal>
       
