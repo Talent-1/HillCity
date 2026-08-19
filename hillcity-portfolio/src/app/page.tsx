@@ -20,12 +20,11 @@ export default function Home() {
             {/* Text Content */}
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-5xl md:text-7xl font-bold text-hill-navy leading-tight mb-6">
-                Your Vision, <span className="text-hill-gold">Directed.</span><br />
+                Your Vision, <span className="text-hill-gold">Engineered.</span><br />
                 Your Web App, Delivered.
               </h1>
               <p className="text-lg text-hill-slate max-w-xl mb-10 mx-auto md:mx-0">
-                From concept to deployment, I build fast, secure, and intuitive web solutions 
-                tailored to your business goals. Engineering the digital foundations your brand deserves.
+      I build fast, secure, and intuitive web applications for businesses that need more than just a website — they need systems that work.
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
